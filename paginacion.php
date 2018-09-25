@@ -15,7 +15,7 @@
 			<?php if (pagina_actual() === $i): ?>
 				<li class="active"><?php echo $i ?></li>
 			<?php else: ?>
-				<li><a href="?p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+				<li><a href="index.php?p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
 			<?php endif ?>
 		<?php endfor ?>
 		
